@@ -1,0 +1,24 @@
+.sidebar {
+  grid-area: sidebar;
+  height: 100vh;
+  overflow: hidden;
+  background-color: rgba(var(--dark), 1);
+}
+
+.sidebarLogo {
+  grid-area: logo;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgba(var(--dark), 1);
+}
+
+.topbar {
+  grid-area: topbar;
+  display: flex;
+  justify-content: flex-end;
+  gap: 1rem;
+  align-items: center;
+  background-color: rgba(var(--medium), 1);
+  padding: 0 1rem;
+}
